@@ -56,5 +56,30 @@ You can also use Robo3T or Studio3T based on your preference.
 
 Use `npm run start-dev` to start the server.If you see a Welcome message [here](http://127.0.0.1:7744/), you are good to go!
 
+Also check for the console message "mongo connected", this confirms you are connected to mongoDB.
+
+This completes the backend local setup, you can fire APIs from postman or REST client extension in VS Code.
+
+# React setup
+
+Now that you have all the dependencies installed on your machine, cloning and running UI should not be a problem.
+
+# Cloning the React Repository
+
+- Go to the React repo on Gitlab that you have access to and copy the `clone with HTTPS` URL.
+- Open command prompt and `cd` to the folder you want to clone and use `git clone {copied URL}`.
+
+  You need to have Git installed, use [this](https://github.com/git-guides/install-git) to install Git.
+
+# Installing npm packages
+
+- `cd` to the cloned folder and use `npm install` or `npm i`.
+
+# Starting sever
+
+Use `npm start` to start the server.You can see conektto UI [here](http://127.0.0.1:3000/) once you setup all this.
+
+Happy Coding!
+
 
 
